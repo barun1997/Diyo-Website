@@ -95,11 +95,11 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import LoginPage from "pages/Login.js";
 // import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
-// import AboutUsPage from "pages/AboutUs.js";
-// import ContactUsPage from "pages/ContactUs.js";
+import AboutUsPage from "pages/AboutUs.js";
+import ContactUsPage from "pages/ContactUs.js";
 // import BlogIndexPage from "pages/BlogIndex.js";
-// import TermsOfServicePage from "pages/TermsOfService.js";
-// import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
+import TermsOfServicePage from "pages/TermsOfService.js";
+import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
 import SaaSProductLandingPage from "main/LandingPage";
@@ -111,11 +111,17 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/components/:type/:subtype/:name">
-          <ComponentRenderer />
+        <Route exact path="/privacy-policy">
+          <PrivacyPolicyPage />
         </Route>
-        <Route path="/components/:type/:name">
-          <ComponentRenderer />
+        <Route exact path="/terms">
+          <TermsOfServicePage />
+        </Route>
+        <Route exact path="/about">
+          <AboutUsPage />
+        </Route>
+        <Route exact path="/contact">
+          <ContactUsPage />
         </Route>
         <Route path="/">
           <SaaSProductLandingPage />

@@ -37,10 +37,10 @@ export default () => {
             <LogoText> Diyo </LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Privacy Policy</Link>
-            <Link href="#">Terms and Conditions</Link>
+            <Link href="/about">About</Link>
+            <Link href="/contact">Contact Us</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms">Terms and Conditions</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">

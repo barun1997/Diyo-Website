@@ -84,7 +84,7 @@ export default ({ headingText = "Privacy Policy" }) => {
               <li>
                 <p>
                   <strong>Company</strong> (referred to as either "the Company",
-                  "We", "Us" or "Our" in this Agreement) refers to Treact.
+                  "We", "Us" or "Our" in this Agreement) refers to Diyo.
                 </p>
               </li>
               <li>
@@ -99,8 +99,8 @@ export default ({ headingText = "Privacy Policy" }) => {
                 to access our Service or parts of our Service.
               </li>
               <li>
-                <strong>Website</strong> refers to Treact, accessible from
-                https://treact.com
+                <strong>Website</strong> refers to Diyo, accessible from
+                https://Diyo.com
               </li>{" "}
               <li>
                 <strong>Service</strong> refers to the Website.
